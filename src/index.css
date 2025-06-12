@@ -1,0 +1,21 @@
+@import url('https://fonts.cdnfonts.com/css/the-butter');
+@import "tailwindcss";
+#welcome{
+font-family: 'The Butter', sans-serif;
+}
+.slick-slider{
+    margin-bottom: 39px;
+}
+.responsive-object {
+  object-position: center;
+}
+@media (min-width: 768px) {
+  .responsive-object {
+    object-position: center -140px;
+  
+  }
+}
+.slick-dots li.slick-active button:before
+{
+    color: red;
+}
